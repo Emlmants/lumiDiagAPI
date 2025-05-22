@@ -1,0 +1,45 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# === Python fichiers compilés ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# === Environnements virtuels ===
+env/
+venv/
+.venv/
+
+# === Fichiers de logs ou temporaires ===
+*.log
+*.tmp
+*.bak
+
+# === Fichiers de configuration utilisateur ===
+.DS_Store
+Thumbs.db
+
+# === PyCharm ===
+.idea/
+*.iml
+
+# === VSCode (au cas où) ===
+.vscode/
+
+# === Paquets Python ===
+*.egg
+*.egg-info/
+dist/
+build/
+
+# === Fichiers de modèle ou data ML ===
+*.pkl
+*.joblib
+*.h5
+*.csv
+*.db
+*.sqlite3
+
