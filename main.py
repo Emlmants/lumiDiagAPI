@@ -19,7 +19,7 @@ class InputData(BaseModel):
 import os
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.join(base_dir, "model/dialu.pkl")
+model_path = os.path.join(base_dir, "app/model/dialu.pkl")
 with open(model_path, "rb") as file:
     model = pickle.load(file)
 
