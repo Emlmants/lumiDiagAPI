@@ -9,3 +9,6 @@ services:
     plan: free
     branch: main
     autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 10000
